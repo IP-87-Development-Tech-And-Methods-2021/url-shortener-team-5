@@ -3,7 +3,7 @@
 This is a template project for "Modern methods and technologies of software development" course labs. Use it to create
 your own repository and fulfill/rewrite this document (at least, replace everything in `{...}`).
 
-## Team
+## Team 5
 
 - { Tunc Oncu (in English) } { synchdescron100@gmail.com } — { synchdescron }
 - ...
