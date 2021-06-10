@@ -28,7 +28,6 @@
     </thead>
     <tbody>
         <% shortUrls.forEach(shortUrl => { %>
-        <% }) %> 
         <tr>
             <td>
                 <a href="<%= shortUrl.full %>"><%=
@@ -37,10 +36,10 @@
                 shortUrl.short %></a></td>
                 <td><%= shortUrl.clicks %></td>
         </tr>
+        <% }) %> 
     </tbody>
 
    </table>
 
 </body>
 </html>
-
