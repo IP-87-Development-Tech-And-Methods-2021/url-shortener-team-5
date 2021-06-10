@@ -1,28 +1,24 @@
 {
-  "name": "node.js-register-login-app",
+  "name": "url-shortener",
   "version": "1.0.0",
-  "description": "This is a user login and registration app using Node.js, Express, Mongoose and express-sessions. :+1:",
-  "main": "server.js",
-  "dependencies": {
-    "connect-mongo": "^3.0.0",
-    "ejs": "^3.1.3",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "mongoose": "^5.12.7"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "devStart": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FSojitra/Node.js-Register-Login-App.git"
-  },
-  "author": "foram sojitra",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FSojitra/Node.js-Register-Login-App/issues"
-  },
-  "homepage": "https://github.com/FSojitra/Node.js-Register-Login-App#readme"
+    "dependencies": {
+      "jest": "^24.1.0",
+      "jest-puppeteer": "^4.0.0",
+      "mailslurp-client": "^3.0.15"
+    }
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "5.9.1",
+    "shortid": "^2.2.15"
+  }
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
